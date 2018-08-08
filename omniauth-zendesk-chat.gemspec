@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "omniauth/zendesk/chat/version"
+require "omniauth/zendesk_chat/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-zendesk-chat"
@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Filipe Nascimento"]
   spec.email         = ["filipemateusn@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Create a summary}
+  spec.description   = %q{Create a description}
+  spec.homepage      = "https://github.com/filipenasc/omniauth-zendesk-chat"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
