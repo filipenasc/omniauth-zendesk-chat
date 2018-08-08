@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "omniauth/zendeskchat/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-zendesk-chat"
+  spec.name          = "omniauth-zendeskchat"
   spec.version       = Omniauth::Zendesk::Chat::VERSION
   spec.authors       = ["Filipe Nascimento"]
   spec.email         = ["filipemateusn@gmail.com"]
 
   spec.summary       = %q{Create a summary}
   spec.description   = %q{Create a description}
-  spec.homepage      = "https://github.com/filipenasc/omniauth-zendesk-chat"
+  spec.homepage      = "https://github.com/filipenasc/omniauth-zendeskchat"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

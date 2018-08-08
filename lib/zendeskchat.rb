@@ -1,1 +1,1 @@
-require "omniauth/zendeskchat.rb"
+require "omniauth/zendeskchat"
