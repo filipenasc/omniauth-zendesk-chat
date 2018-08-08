@@ -3,8 +3,6 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class ZendeskChat < OmniAuth::Strategies::OAuth2
-      option :name, 'zendesk_chat'
-
       args %i[client_id client_secret]
 
       option :client_options,
@@ -14,4 +12,4 @@ module OmniAuth
   end
 end
 
-OmniAuth.config.add_camelization 'zendesk_chat', 'ZendeskChat'
+OmniAuth.config.add_camelization 'zendeskchat', 'ZendeskChat'
