@@ -12,6 +12,7 @@ module OmniAuth
     end
 
     def token_params
+      binding.pry
       options.token_params.merge(redirect_uri: callback_url)
     end
   end
