@@ -7,7 +7,8 @@ module OmniAuth
 
       option :client_options,
              authorize_url: 'https://www.zopim.com/oauth2/authorizations/new',
-             token_url: 'https://www.zopim.com/oauth2/token'
+             site: 'https://www.zopim.com',
+             token_url: 'oauth2/token'
     end
   end
 end
