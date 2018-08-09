@@ -10,6 +10,10 @@ module OmniAuth
              site: 'https://www.zopim.com',
              token_url: 'oauth2/token'
     end
+
+    def token_params
+      options.token_params.merge(redirect_uri: callback_url)
+    end
   end
 end
 
